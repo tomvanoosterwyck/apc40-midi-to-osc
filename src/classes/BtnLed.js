@@ -1,3 +1,5 @@
+import CustEvent from './CustEvent'
+
 export default class BtnLed {
   constructor (mapping, config, osc, midiIn, midiOut) {
     this.mapping = mapping
@@ -42,12 +44,14 @@ export default class BtnLed {
         this.value = !this.value
         if (this.value) {
           send = 1
-          console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
+          // console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
+          CustEvent.emit('sendOsc', {name: this.mapping.name, osc: this.mapping.osc, value: send})
           this.sendOsc(send)
           this.sendMidi(this.mapping.ledOn)
         } else {
           send = 0
-          console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
+          // console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
+          CustEvent.emit('sendOsc', {name: this.mapping.name, osc: this.mapping.osc, value: send})
           this.sendOsc(send)
           this.sendMidi(this.mapping.ledOff)
 
@@ -55,7 +59,8 @@ export default class BtnLed {
       }
     } else {
       send = val
-      console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
+      // console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
+      CustEvent.emit('sendOsc', {name: this.mapping.name, osc: this.mapping.osc, value: send})
       this.sendOsc(send)
     }
   }
@@ -68,13 +73,14 @@ export default class BtnLed {
           value: value
         }
       ]
-    }, this.config.magicQIp, this.config.oscOutPort)
+    }, this.config.oscIpIp, this.config.oscOutPort)
     setTimeout(() => {
-      this.osc.send({address: '/feedback/pb+exec'}, this.config.magicQIp, this.config.oscOutPort)
+      this.osc.send({address: '/feedback/pb+exec'}, this.config.oscIpIp, this.config.oscOutPort)
     }, 100)
   }
 
   sendMidi(value) {
+    CustEvent.emit('sendMidi', {channel: this.mapping.channel, noteCC: this.mapping.note, value: value})
     this.midiOut.send('noteon', {
       channel: this.mapping.channel,
       note: this.mapping.note,

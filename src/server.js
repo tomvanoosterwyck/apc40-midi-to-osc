@@ -1,20 +1,19 @@
 import easymidi from 'easymidi'
 import osc from 'osc'
-import mapping from './mapping.json'
 import Fader from './classes/Fader.js'
 import Btn from './classes/Btn.js'
 import BtnLed from './classes/BtnLed.js'
 import PotMeter from './classes/PotMeter.js'
+import loadFromJSON from './helpers/loadFromJSON'
+import CustEvent from './classes/CustEvent'
 
-let config = {
-  oscserverIp: "localhost",
-  oscInPort: 9000,
-  magicQIp: "localhost",
-  oscOutPort: 8000
-}
+import './webserver'
+
+let config = loadFromJSON('./config/config.json')
+let mapping = loadFromJSON('./config/mapping.json')
 
 let udpPort = new osc.UDPPort({
-  localAddress: config.oscserver,
+  localAddress: config.oscInIp,
   localPort: config.oscInPort,
   metadata: true
 })
@@ -40,7 +39,6 @@ outputs.forEach(e => {
 
 let input = new easymidi.Input(inputName)
 let output = new easymidi.Output(outputName)
-console.log(input, output)
 
 output.send('sysex', [0xf0, 0x47, 0x00, 0x73, 0x60, 0x00, 0x04, 0x42, 0x08, 0x04, 0x01, 0xf7])
 
@@ -48,10 +46,10 @@ output.send('sysex', [0xf0, 0x47, 0x00, 0x73, 0x60, 0x00, 0x04, 0x42, 0x08, 0x04
 udpPort.on('ready', () => {
   console.log('running')
   setTimeout(() => {
-    udpPort.send({address: '/feedback/pb+exec'}, config.magicQIp, config.oscOutPort)
+    udpPort.send({address: '/feedback/pb+exec'}, config.oscOutIp, config.oscOutPort)
   },100)
   setInterval(() => {
-    udpPort.send({address: '/feedback/pb+exec'}, config.magicQIp, config.oscOutPort)
+    udpPort.send({address: '/feedback/pb+exec'}, config.oscOutIp, config.oscOutPort)
   }, 10000)
   let faders = []
   let btns = []
@@ -72,5 +70,11 @@ udpPort.on('ready', () => {
   console.log('btns: ', btns.length)
   console.log('btnLeds: ', btnLeds.length)
   console.log('potMeters: ', potMeters.length)
+  CustEvent.on('sendOsc', (val) => {
+    console.log('sendOsc', val)
+  })
+  CustEvent.on('sendMidi', (val) => {
+    console.log('sendMidi',val)
+  })
   // console.log(faders)
 })

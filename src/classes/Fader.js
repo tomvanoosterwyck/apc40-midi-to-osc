@@ -1,4 +1,5 @@
 import { toFloat } from '../mapValues.js'
+import CustEvent from './CustEvent'
 
 export default class Fader {
   constructor (mapping, config, osc, midiIn, midiOut) {
@@ -23,7 +24,7 @@ export default class Fader {
   handleMidiIn (val) {
     let value = toFloat(val)
     // console.log(value)
-    console.log(`moved fader ${this.mapping.name} sending to: ${this.mapping.osc} value: ${value}`)
+    CustEvent.emit('sendOsc', {name: this.mapping.name, osc: this.mapping.osc, value: value})
     this.sendOsc(value)
   }
 
@@ -36,6 +37,6 @@ export default class Fader {
           value: value
         }
       ]
-    }, this.config.magicQIp, this.config.oscOutPort)
+    }, this.config.oscIpIp, this.config.oscOutPort)
   }
 }

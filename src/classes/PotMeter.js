@@ -1,4 +1,6 @@
 import { toFloat, toNumber } from '../mapValues.js'
+import CustEvent from './CustEvent'
+
 
 export default class PotMeter {
   constructor (mapping, config, osc, midiIn, midiOut) {
@@ -29,7 +31,9 @@ export default class PotMeter {
     this.sendMidi(val)
     let value = toFloat(val)
     // console.log(value)
-    console.log(`moved fader ${this.mapping.name} sending to: ${this.mapping.osc} value: ${value}`)
+    // console.log(`moved fader ${this.mapping.name} sending to: ${this.mapping.osc} value: ${value}`)
+    CustEvent.emit('sendOsc', {name: this.mapping.name, osc: this.mapping.osc, value: value})
+
     this.sendOsc(value)
   }
 
@@ -42,9 +46,10 @@ export default class PotMeter {
           value: value
         }
       ]
-    }, this.config.magicQIp, this.config.oscOutPort)
+    }, this.config.oscIpIp, this.config.oscOutPort)
   }
   sendMidi(value) {
+    CustEvent.emit('sendMidi', { channel: this.mapping.channel, noteCC: this.mapping.controller, value: value})
     this.midiOut.send('cc', {
       channel: this.mapping.channel,
       controller: this.mapping.controller,

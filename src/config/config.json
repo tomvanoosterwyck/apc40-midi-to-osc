@@ -1,0 +1,6 @@
+{
+  "oscInIp": "localhost",
+  "oscInPort": 9000,
+  "oscOutIp": "localhost",
+  "oscOutPort": 8000
+}
