@@ -1,0 +1,1297 @@
+[
+  {
+    "name": "btnRow1-1",
+    "channel": 0,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/1",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-2",
+    "channel": 1,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/2",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-3",
+    "channel": 2,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/3",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-4",
+    "channel": 3,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/4",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-5",
+    "channel": 4,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/5",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-6",
+    "channel": 5,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/6",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-7",
+    "channel": 6,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/7",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow1-8",
+    "channel": 7,
+    "note": 53,
+    "type": "GridBtn",
+    "osc": "/exec/5/8",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "sceneLaunch1",
+    "channel": 0,
+    "note": 82,
+    "type": "BtnBlink",
+    "osc": "/exec/5/9",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "btnRow2-1",
+    "channel": 0,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/10",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-2",
+    "channel": 1,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/11",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-3",
+    "channel": 2,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/12",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-4",
+    "channel": 3,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/13",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-5",
+    "channel": 4,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/14",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-6",
+    "channel": 5,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/15",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-7",
+    "channel": 6,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/16",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow2-8",
+    "channel": 7,
+    "note": 54,
+    "type": "GridBtn",
+    "osc": "/exec/5/17",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "sceneLaunch2",
+    "channel": 0,
+    "note": 83,
+    "type": "BtnBlink",
+    "osc": "/exec/5/18",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "btnRow3-1",
+    "channel": 0,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/19",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-2",
+    "channel": 1,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/20",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-3",
+    "channel": 2,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/21",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-4",
+    "channel": 3,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/22",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-5",
+    "channel": 4,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/23",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-6",
+    "channel": 5,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/24",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-7",
+    "channel": 6,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/25",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow3-8",
+    "channel": 7,
+    "note": 55,
+    "type": "GridBtn",
+    "osc": "/exec/5/26",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "sceneLaunch3",
+    "channel": 0,
+    "note": 84,
+    "type": "BtnBlink",
+    "osc": "/exec/5/27",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 0
+  },
+  {
+    "name": "btnRow4-1",
+    "channel": 0,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/28",
+    "btnMode": "toggle",
+    "ledOff": 3,
+    "ledOn": 4
+  },
+  {
+    "name": "btnRow4-2",
+    "channel": 1,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/29",
+    "btnMode": "toggle",
+    "ledOff": 3,
+    "ledOn": 4
+  },
+  {
+    "name": "btnRow4-3",
+    "channel": 2,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/30",
+    "btnMode": "toggle",
+    "ledOff": 3,
+    "ledOn": 4
+  },
+  {
+    "name": "btnRow4-4",
+    "channel": 3,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/31",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow4-5",
+    "channel": 4,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/32",
+    "btnMode": "toggle",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow4-6",
+    "channel": 5,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/33",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow4-7",
+    "channel": 6,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/34",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow4-8",
+    "channel": 7,
+    "note": 56,
+    "type": "GridBtn",
+    "osc": "/exec/5/35",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "sceneLaunch4",
+    "channel": 0,
+    "note": 85,
+    "type": "BtnBlink",
+    "osc": "/exec/5/36",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "btnRow5-1",
+    "channel": 0,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/37",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-2",
+    "channel": 1,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/38",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-3",
+    "channel": 2,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/39",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-4",
+    "channel": 3,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/40",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-5",
+    "channel": 4,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/41",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-6",
+    "channel": 5,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/42",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-7",
+    "channel": 6,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/43",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "btnRow5-8",
+    "channel": 7,
+    "note": 57,
+    "type": "GridBtn",
+    "osc": "/exec/5/44",
+    "btnMode": "moment",
+    "ledOff": 5,
+    "ledOn": 6
+  },
+  {
+    "name": "sceneLaunch5",
+    "channel": 0,
+    "note": 86,
+    "type": "BtnBlink",
+    "osc": "/exec/5/45",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop1",
+    "channel": 0,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/46",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop2",
+    "channel": 1,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/47",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop3",
+    "channel": 2,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/48",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop4",
+    "channel": 3,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/49",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop5",
+    "channel": 4,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/50",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop6",
+    "channel": 5,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/51",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop7",
+    "channel": 6,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/52",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "clipStop8",
+    "channel": 7,
+    "note": 52,
+    "type": "BtnBlink",
+    "osc": "/exec/5/53",
+    "btnMode": "toggle",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "StopAll",
+    "channel": 0,
+    "note": 81,
+    "type": "Btn",
+    "osc": "/exec/5/54",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 2
+  },
+  {
+    "name": "trackSelect1",
+    "channel": 0,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/55",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect2",
+    "channel": 1,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/56",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect3",
+    "channel": 2,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/57",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect4",
+    "channel": 3,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/58",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect5",
+    "channel": 4,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/59",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect6",
+    "channel": 5,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/60",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect7",
+    "channel": 6,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/61",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelect8",
+    "channel": 7,
+    "note": 51,
+    "type": "BtnLed",
+    "osc": "/exec/5/62",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "trackSelectMaster",
+    "channel": 0,
+    "note": 80,
+    "type": "BtnLed",
+    "osc": "/exec/5/63",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator1",
+    "channel": 0,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/64",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator2",
+    "channel": 1,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/65",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator3",
+    "channel": 2,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/66",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator4",
+    "channel": 3,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/67",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator5",
+    "channel": 4,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/68",
+    "btnMode": "Moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator6",
+    "channel": 5,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/69",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator7",
+    "channel": 6,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/70",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "activator8",
+    "channel": 7,
+    "note": 50,
+    "type": "BtnLed",
+    "osc": "/exec/5/71",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo1",
+    "channel": 0,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/73",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo2",
+    "channel": 1,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/74",
+    "btnMode": "toggle",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo3",
+    "channel": 2,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/75",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo4",
+    "channel": 3,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/76",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo5",
+    "channel": 4,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/77",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo6",
+    "channel": 5,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/78",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo7",
+    "channel": 6,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/79",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "solo8",
+    "channel": 7,
+    "note": 49,
+    "type": "BtnLed",
+    "osc": "/exec/5/80",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record1",
+    "channel": 0,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/82",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record2",
+    "channel": 1,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/83",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record3",
+    "channel": 2,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/84",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record4",
+    "channel": 3,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/85",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record5",
+    "channel": 4,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/86",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record6",
+    "channel": 5,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/87",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record7",
+    "channel": 6,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/88",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "record8",
+    "channel": 7,
+    "note": 48,
+    "type": "BtnLed",
+    "osc": "/exec/5/89",
+    "btnMode": "moment",
+    "ledOff": 0,
+    "ledOn": 1
+  },
+  {
+    "name": "fade1",
+    "channel": 0,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/1"
+  },
+  {
+    "name": "fade2",
+    "channel": 1,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/2"
+  },
+  {
+    "name": "fade3",
+    "channel": 2,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/3"
+  },
+  {
+    "name": "fade4",
+    "channel": 3,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/4"
+  },
+  {
+    "name": "fade5",
+    "channel": 4,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/5"
+  },
+  {
+    "name": "fade6",
+    "channel": 5,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/6"
+  },
+  {
+    "name": "fade7",
+    "channel": 6,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/7"
+  },
+  {
+    "name": "fade8",
+    "channel": 7,
+    "controller": 7,
+    "type": "Fader",
+    "osc": "/exec/4/8"
+  },
+  {
+    "name": "fadeMaster",
+    "channel": 0,
+    "controller": 14,
+    "type": "Fader",
+    "osc": "/exec/4/9"
+  },
+  {
+    "name": "trackControl1",
+    "channel": 0,
+    "controller": 48,
+    "type": "PotMeter",
+    "osc": "/exec/4/10",
+    "btnMode": "single",
+    "modeChannel": 56
+  },
+  {
+    "name": "trackControl2",
+    "channel": 0,
+    "controller": 49,
+    "type": "PotMeter",
+    "osc": "/exec/4/11",
+    "btnMode": "single",
+    "modeChannel": 57
+  },
+  {
+    "name": "trackControl3",
+    "channel": 0,
+    "controller": 50,
+    "type": "PotMeter",
+    "osc": "/exec/4/12",
+    "btnMode": "single",
+    "modeChannel": 58
+  },
+  {
+    "name": "trackControl4",
+    "channel": 0,
+    "controller": 51,
+    "type": "PotMeter",
+    "osc": "/exec/4/13",
+    "btnMode": "single",
+    "modeChannel": 59
+  },
+  {
+    "name": "trackControl5",
+    "channel": 0,
+    "controller": 52,
+    "type": "PotMeter",
+    "osc": "/exec/4/14",
+    "btnMode": "single",
+    "modeChannel": 60
+  },
+  {
+    "name": "trackControl6",
+    "channel": 0,
+    "controller": 53,
+    "type": "PotMeter",
+    "osc": "/exec/4/15",
+    "btnMode": "single",
+    "modeChannel": 61
+  },
+  {
+    "name": "trackControl7",
+    "channel": 0,
+    "controller": 54,
+    "type": "PotMeter",
+    "osc": "/exec/4/16",
+    "btnMode": "single",
+    "modeChannel": 62
+  },
+  {
+    "name": "trackControl8",
+    "channel": 0,
+    "controller": 55,
+    "type": "PotMeter",
+    "osc": "/exec/4/17",
+    "btnMode": "single",
+    "modeChannel": 63
+  },
+  {
+    "name": "deviceControl1",
+    "channel": 0,
+    "controller": 16,
+    "type": "PotMeter",
+    "osc": "/exec/4/19",
+    "btnMode": "single",
+    "modeChannel": 24
+  },
+  {
+    "name": "deviceControl2",
+    "channel": 0,
+    "controller": 17,
+    "type": "PotMeter",
+    "osc": "/exec/4/20",
+    "btnMode": "single",
+    "modeChannel": 25
+  },
+  {
+    "name": "deviceControl3",
+    "channel": 0,
+    "controller": 18,
+    "type": "PotMeter",
+    "osc": "/exec/4/21",
+    "btnMode": "single",
+    "modeChannel": 26
+  },
+  {
+    "name": "deviceControl4",
+    "channel": 0,
+    "controller": 19,
+    "type": "PotMeter",
+    "osc": "/exec/4/22",
+    "btnMode": "single",
+    "modeChannel": 27
+  },
+  {
+    "name": "deviceControl5",
+    "channel": 0,
+    "controller": 20,
+    "type": "PotMeter",
+    "osc": "/exec/4/23",
+    "btnMode": "single",
+    "modeChannel": 28
+  },
+  {
+    "name": "deviceControl6",
+    "channel": 0,
+    "controller": 21,
+    "type": "PotMeter",
+    "osc": "/exec/4/24",
+    "btnMode": "single",
+    "modeChannel": 29
+  },
+  {
+    "name": "deviceControl7",
+    "channel": 0,
+    "controller": 22,
+    "type": "PotMeter",
+    "osc": "/exec/4/25",
+    "btnMode": "single",
+    "modeChannel": 30
+  },
+  {
+    "name": "deviceControl8",
+    "channel": 0,
+    "controller": 23,
+    "type": "PotMeter",
+    "osc": "/exec/4/26",
+    "btnMode": "single",
+    "modeChannel": 31
+  },
+  {
+    "name": "pan",
+    "channel": 0,
+    "note": 87,
+    "type": "BtnLed",
+    "osc": "/exec/4/37",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "sendA",
+    "channel": 0,
+    "note": 88,
+    "type": "BtnLed",
+    "osc": "/exec/4/38",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "sendB",
+    "channel": 0,
+    "note": 89,
+    "type": "BtnLed",
+    "osc": "/exec/4/39",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "sendC",
+    "channel": 0,
+    "note": 90,
+    "type": "BtnLed",
+    "osc": "/exec/4/40",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "shift",
+    "channel": 0,
+    "note": 98,
+    "type": "Btn",
+    "osc": "/exec/4/5x4",
+    "btnMode": "moment"
+  },
+  {
+    "name": "tempoTab",
+    "channel": 0,
+    "note": 99,
+    "type": "Btn",
+    "osc": "/exec/4/5x5",
+    "btnMode": "moment"
+  },
+  {
+    "name": "nudgePlus",
+    "channel": 0,
+    "note": 100,
+    "type": "Btn",
+    "osc": "/exec/4/5x6",
+    "btnMode": "moment"
+  },
+  {
+    "name": "nudgeMin",
+    "channel": 0,
+    "note": 101,
+    "type": "Btn",
+    "osc": "/exec/4/5x7",
+    "btnMode": "moment"
+  },
+  {
+    "name": "play",
+    "channel": 0,
+    "note": 91,
+    "type": "Btn",
+    "osc": "/exec/4/55",
+    "btnMode": "moment"
+  },
+  {
+    "name": "stop",
+    "channel": 0,
+    "note": 92,
+    "type": "Btn",
+    "osc": "/exec/4/56",
+    "btnMode": "moment"
+  },
+  {
+    "name": "rec",
+    "channel": 0,
+    "note": 93,
+    "type": "Btn",
+    "osc": "/feedback/pb+exec",
+    "btnMode": "moment"
+  },
+  {
+    "name": "bankSelectU",
+    "channel": 0,
+    "note": 94,
+    "type": "Btn",
+    "osc": "/exec/4/6x3"
+  },
+  {
+    "name": "bankSelectD",
+    "channel": 0,
+    "note": 95,
+    "type": "Btn",
+    "osc": "/exec/4/6x4"
+  },
+  {
+    "name": "bankSelectR",
+    "channel": 0,
+    "note": 96,
+    "type": "Btn",
+    "osc": "/exec/4/6x5"
+  },
+  {
+    "name": "bankSelectL",
+    "channel": 0,
+    "note": 97,
+    "type": "Btn",
+    "osc": "/exec/4/6x6"
+  },
+  {
+    "name": "crossfader",
+    "channel": 0,
+    "controller": 15,
+    "type": "Fader",
+    "osc": "/exec/4/6x7"
+  },
+  {
+    "name": "clipTrack",
+    "channel": 0,
+    "note": 58,
+    "type": "BtnLed",
+    "osc": "/exec/4/46",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "deviceOnOff",
+    "channel": 0,
+    "note": 59,
+    "type": "BtnLed",
+    "osc": "/exec/4/47",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "ledArrowL",
+    "channel": 0,
+    "note": 60,
+    "type": "BtnLed",
+    "osc": "/exec/4/48",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "ledArrowR",
+    "channel": 0,
+    "note": 61,
+    "type": "BtnLed",
+    "osc": "/exec/4/49",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "detailView",
+    "channel": 0,
+    "note": 62,
+    "type": "BtnLed",
+    "osc": "/exec/4/58",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "recQuantization",
+    "channel": 0,
+    "note": 63,
+    "type": "BtnLed",
+    "osc": "/exec/4/59",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "midiOverdub",
+    "channel": 0,
+    "note": 64,
+    "type": "BtnLed",
+    "osc": "/exec/4/60",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "metronome",
+    "channel": 0,
+    "note": 65,
+    "type": "BtnLed",
+    "osc": "/exec/4/61",
+    "btnMode": "moment",
+    "ledOff": 1,
+    "ledOn": 1
+  },
+  {
+    "name": "cueLevel",
+    "channel": 0,
+    "controller": 47,
+    "type": "Encoder",
+    "osc": "/exec/4/8x0"
+  }
+]
