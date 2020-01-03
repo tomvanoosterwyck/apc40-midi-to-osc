@@ -76,5 +76,26 @@ udpPort.on('ready', () => {
   CustEvent.on('sendMidi', (val) => {
     console.log('sendMidi',val)
   })
-  // console.log(faders)
+
+  CustEvent.on('clientConnected', () => {
+    console.log('hello')
+    CustEvent.emit('getInit', getConfig())
+  })
+  function getConfig () {
+    let rdn = []
+    faders.forEach(e => {
+      rdn.push(e.mapping)
+    })
+    btnLeds.forEach(e => {
+      rdn.push(e.mapping)
+    })
+    btns.forEach(e => {
+      rdn.push(e.mapping)
+    })
+    potMeters.forEach(e => {
+      rdn.push(e.mapping)
+    })
+
+    return rdn
+  }
 })

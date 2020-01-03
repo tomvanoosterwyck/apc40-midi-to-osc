@@ -5,6 +5,7 @@ import CustEvent from './CustEvent'
 export default class PotMeter {
   constructor (mapping, config, osc, midiIn, midiOut) {
     this.mapping = mapping
+    this.mapping.value = 0
     this.config = config
     this.osc = osc
     this.midiOut = midiOut
@@ -38,6 +39,7 @@ export default class PotMeter {
   }
 
   sendOsc (value) {
+    this.mapping.value = value
     this.osc.send({
       address: this.mapping.osc,
       args: [

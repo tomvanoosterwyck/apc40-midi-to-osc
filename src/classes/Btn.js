@@ -7,16 +7,16 @@ export default class Btn {
     this.config = config
     this.osc = osc
     this.midiOut = midiOut
-    this.value = false
+    this.mapping.value = false
     // console.log('init')
     let vm = this
     osc.on('message', (val) => {
       // console.log(`${val.address} === ${mapping.osc}`)
       if (val.address === mapping.osc) {
         if (val.args[0].value === 1) {
-          this.value = true
+          this.mapping.value = true
         } else {
-          this.value = false
+          this.mapping.value = false
         }
       }
     })
@@ -38,8 +38,8 @@ export default class Btn {
     if (this.mapping.btnMode === 'toggle') {
       if (val === 1) {
         // console.log(val)
-        this.value = !this.value
-        if (this.value) {
+        this.mapping.value = !this.mapping.value
+        if (this.mapping.value) {
           send = 1
           // console.log(`pressed button ${this.mapping.name} sending to: ${this.mapping.osc} value: ${send}`)
           CustEvent.emit('sendOsc', {name: this.mapping.name, osc: this.mapping.osc, value: send})
