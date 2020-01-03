@@ -37,15 +37,28 @@ import faderCaps from './json/fadercaps.json'
 export default class FaderCaps extends Vue {
   @Prop(Array) readonly config!: Array<any>
 
-  ff:Array<any> = []
+  ff:any = {}
   mounted () {
     this.ff = faderCaps
+  }
+
+  initFaders () {
+    let rtn:Array<any> = []
+    for (let i = 0; i < this.config.length; i++) {
+      const e = this.config[i]
+      if (this.ff[e.name]) {
+        let tmp = {}
+      }
+    }
   }
 
   get faders () {
     let rtn:Array<any> = []
     for (let i = 0; i < this.config.length; i++) {
       const e = this.config[i]
+      if (this.ff[e.name]) {
+        let tmp = {}
+      }
       for (let t = 0; t < this.ff.length; t++) {
         const j = this.ff[t]
         if (j.name === e.name) {

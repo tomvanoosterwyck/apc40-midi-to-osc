@@ -37,6 +37,7 @@ import Faders from '../components/apc40/Faders.vue'
 import TrackButtons from '../components/apc40/TrackButtons.vue'
 import FaderCaps from '../components/apc40/FaderCaps.vue'
 import Labels from '../components/apc40/Labels.vue'
+import { EventBus } from '../EventBus'
 import axios from 'axios'
 
 @Component({
@@ -69,6 +70,7 @@ export default class APC40 extends Vue {
       let data = JSON.parse(msg.data)
       // console.log(data)
       if (data.event === 'sendOsc') {
+        EventBus.$emit('sendOsc', data.data)
         let tmp:Array<any> = []
         vm.config.forEach(e => {
           if (e.name === data.data.name) {
