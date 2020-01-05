@@ -29,13 +29,7 @@
           </v-list-item-content>
         </v-list-item>
       </template>
-      <v-list dense>
-        <v-list-item>
-          <v-list-item-content>
-            <v-list-item-title>Test</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
+      <Config />
     </v-navigation-drawer>
     <v-content>
       <APC40 />
@@ -46,12 +40,14 @@
 <script lang="ts">
 import Vue from 'vue'
 import APC40 from './views/APC40.vue'
+import Config from './views/Config.vue'
 
 export default Vue.extend({
   name: 'App',
 
   components: {
-    APC40
+    APC40,
+    Config
   },
 
   data: () => ({

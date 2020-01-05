@@ -1,209 +1,87 @@
 <template>
   <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="track selection"
-     transform="translate(0,-140.89585)">
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,-0.12992033,93.225288)"
-       id="track1"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,12.082346,93.225288)"
-       id="track2"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,24.294611,93.225288)"
-       id="track3"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,36.506878,93.225288)"
-       id="track4"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,48.719145,93.225288)"
-       id="track5"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,60.931409,93.225288)"
-       id="track6"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,73.143674,93.225288)"
-       id="track7"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,85.355943,93.225288)"
-       id="track8"
-       width="100%"
-       height="100%" />
-    <use
-       style="display:inline"
-       x="0"
-       y="0"
-       inkscape:tiled-clone-of="#grid1"
-       xlink:href="#grid1"
-       transform="matrix(1.0001857,0,0,0.86333306,97.927419,93.225288)"
-       id="trackmaster"
-       width="100%"
-       height="100%" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.27278686px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05681966"
-       x="17.787264"
-       y="233.46034"
-       id="text6867"><tspan
-         sodipodi:role="line"
-         id="tspan6865"
-         x="17.787264"
-         y="233.46034"
-         style="fill:#ffffff;stroke-width:0.05681966">1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.21027923px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05525697"
-       x="30.670792"
-       y="230.92003"
-       id="text6867-8"
-       transform="scale(0.9894821,1.0106297)"><tspan
-         sodipodi:role="line"
-         id="tspan6865-4"
-         x="30.670792"
-         y="230.92003"
-         style="fill:#ffffff;stroke-width:0.05525697">2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.25960922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05649024"
-       x="41.161865"
-       y="240.95821"
-       id="text6889"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887"
-         x="41.161865"
-         y="240.95821"
-         style="fill:#ffffff;stroke-width:0.05649024">3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.25960922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05649024"
-       x="53.004745"
-       y="240.98701"
-       id="text6889-6"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887-1"
-         x="53.004745"
-         y="240.98701"
-         style="fill:#ffffff;stroke-width:0.05649024">4</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.25960922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05649024"
-       x="64.714874"
-       y="240.97493"
-       id="text6889-6-4"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887-1-1"
-         x="64.714874"
-         y="240.97493"
-         style="fill:#ffffff;stroke-width:0.05649024">5</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.25960922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05649024"
-       x="76.585625"
-       y="240.96989"
-       id="text6889-6-4-5"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887-1-1-3"
-         x="76.585625"
-         y="240.96989"
-         style="fill:#ffffff;stroke-width:0.05649024">6</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.25960922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05649024"
-       x="88.421204"
-       y="240.99742"
-       id="text6889-6-4-5-8"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887-1-1-3-5"
-         x="88.421204"
-         y="240.99742"
-         style="fill:#ffffff;stroke-width:0.05649024">7</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.25960922px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05649024"
-       x="100.21453"
-       y="240.97493"
-       id="text6889-6-4-5-8-4"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887-1-1-3-5-5"
-         x="100.21453"
-         y="240.97493"
-         style="fill:#ffffff;stroke-width:0.05649024">8</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.77901888px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04447548"
-       x="109.52019"
-       y="240.84851"
-       id="text6889-6-4-5-8-4-2"
-       transform="scale(1.0321963,0.96880796)"><tspan
-         sodipodi:role="line"
-         id="tspan6887-1-1-3-5-5-5"
-         x="109.52019"
-         y="240.84851"
-         style="fill:#ffffff;stroke-width:0.04447548">MASTER</tspan></text>
+    inkscape:groupmode="layer"
+    id="layer3"
+    inkscape:label="track selection"
+    transform="translate(0,-140.89585)"
+  >
+    <rect
+      v-for="(item, i) in ff"
+      :key="i"
+      @click="openConfig(item)"
+      :style="getColor(item)"
+      :id="item.id"
+      :width="item.width"
+      :height="item.height"
+      :x="item.x"
+      :y="item.y"
+      class="addPointer"
+    />
   </g>
 </template>
 
-<script>
-export default {}
+<script lang="ts">
+import Vue from 'vue'
+import Component from 'vue-class-component'
+import { Prop, Watch, Emit } from 'vue-property-decorator'
+import { EventBus } from '../../EventBus'
+import trackButtons from './json/trackButtons.json'
+
+@Component
+export default class TrackButtons extends Vue {
+  @Prop(Array) readonly config!: Array<any>
+  ff:any = {}
+
+  mounted () {
+    this.ff = trackButtons
+    setTimeout(() => {
+      this.initGrid()
+      EventBus.$on('sendOsc', (data:any) => {
+        this.setGrid(data)
+      })
+    }, 1500)
+  }
+
+  setGrid (updateData:any) {
+    let name = updateData.name
+    if (this.ff[name]) {
+      this.ff[name].value = updateData.value
+      this.ff = Object.assign({}, this.ff)
+    }
+  }
+
+  initGrid () {
+    for (let i = 0; i < this.config.length; i++) {
+      const e = this.config[i]
+      if (this.ff[e.name]) {
+        this.ff[e.name].name = e.name
+        this.ff[e.name].osc = e.osc
+        this.ff[e.name].type = e.type
+        this.ff[e.name].value = e.value
+        this.ff[e.name].ledOn = e.ledOn
+        this.ff[e.name].ledOff = e.ledOff
+      }
+    }
+    this.ff = Object.assign({}, this.ff)
+  }
+
+  getColor (btn:any) {
+    let rtn = ''
+    if (btn.value) {
+      rtn = this.colors[btn.ledOn]
+    } else {
+      rtn = this.colors[btn.ledOff]
+    }
+    return rtn
+  }
+  colors:Array<string> = [
+    'display:inline;fill:#000000;opacity:0.3',
+    'display:inline;fill:#00FF00;opacity:0.3',
+    'display:inline;fill:#00FF00;opacity:1'
+  ]
+
+  openConfig (item:any) {
+    EventBus.$emit('openConfig', item)
+  }
+}
 </script>

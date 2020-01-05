@@ -1125,7 +1125,7 @@
     "btnMode": "moment"
   },
   {
-    "name": "tempoTab",
+    "name": "btnTapTempo",
     "channel": 0,
     "note": 99,
     "type": "Btn",
@@ -1133,7 +1133,7 @@
     "btnMode": "moment"
   },
   {
-    "name": "nudgePlus",
+    "name": "btnNudgeMin",
     "channel": 0,
     "note": 100,
     "type": "Btn",
@@ -1141,7 +1141,7 @@
     "btnMode": "moment"
   },
   {
-    "name": "nudgeMin",
+    "name": "btnNudgePlus",
     "channel": 0,
     "note": 101,
     "type": "Btn",
@@ -1149,7 +1149,7 @@
     "btnMode": "moment"
   },
   {
-    "name": "play",
+    "name": "btnPlay",
     "channel": 0,
     "note": 91,
     "type": "Btn",
@@ -1157,7 +1157,7 @@
     "btnMode": "moment"
   },
   {
-    "name": "stop",
+    "name": "btnStop",
     "channel": 0,
     "note": 92,
     "type": "Btn",
@@ -1165,7 +1165,7 @@
     "btnMode": "moment"
   },
   {
-    "name": "rec",
+    "name": "btnRec",
     "channel": 0,
     "note": 93,
     "type": "Btn",
@@ -1173,28 +1173,28 @@
     "btnMode": "moment"
   },
   {
-    "name": "bankSelectU",
+    "name": "btnArrowUp",
     "channel": 0,
     "note": 94,
     "type": "Btn",
     "osc": "/exec/4/6x3"
   },
   {
-    "name": "bankSelectD",
+    "name": "btnArrowDown",
     "channel": 0,
     "note": 95,
     "type": "Btn",
     "osc": "/exec/4/6x4"
   },
   {
-    "name": "bankSelectR",
+    "name": "btnArrowRight",
     "channel": 0,
     "note": 96,
     "type": "Btn",
     "osc": "/exec/4/6x5"
   },
   {
-    "name": "bankSelectL",
+    "name": "btnArrowLeft",
     "channel": 0,
     "note": 97,
     "type": "Btn",
@@ -1208,7 +1208,7 @@
     "osc": "/exec/4/6x7"
   },
   {
-    "name": "clipTrack",
+    "name": "btnClipTrack",
     "channel": 0,
     "note": 58,
     "type": "BtnLed",
@@ -1218,7 +1218,7 @@
     "ledOn": 1
   },
   {
-    "name": "deviceOnOff",
+    "name": "btnDeviceOnOff",
     "channel": 0,
     "note": 59,
     "type": "BtnLed",
@@ -1228,7 +1228,7 @@
     "ledOn": 1
   },
   {
-    "name": "ledArrowL",
+    "name": "btnSmallLeftArrow",
     "channel": 0,
     "note": 60,
     "type": "BtnLed",
@@ -1238,7 +1238,7 @@
     "ledOn": 1
   },
   {
-    "name": "ledArrowR",
+    "name": "btnSmallRightArrow",
     "channel": 0,
     "note": 61,
     "type": "BtnLed",
@@ -1248,7 +1248,7 @@
     "ledOn": 1
   },
   {
-    "name": "detailView",
+    "name": "btnDetailView",
     "channel": 0,
     "note": 62,
     "type": "BtnLed",
@@ -1258,7 +1258,7 @@
     "ledOn": 1
   },
   {
-    "name": "recQuantization",
+    "name": "btnRecQua",
     "channel": 0,
     "note": 63,
     "type": "BtnLed",
@@ -1268,7 +1268,7 @@
     "ledOn": 1
   },
   {
-    "name": "midiOverdub",
+    "name": "btnMidiOver",
     "channel": 0,
     "note": 64,
     "type": "BtnLed",
@@ -1278,7 +1278,7 @@
     "ledOn": 1
   },
   {
-    "name": "metronome",
+    "name": "btnMetronome",
     "channel": 0,
     "note": 65,
     "type": "BtnLed",

@@ -11,13 +11,13 @@
       sodipodi:docname="APC40-plain.svg">
       <Frame />
       <Grid :config="config" />
-      <SmallQue />
-      <Buttons-Right />
-      <Track-Control-Knobs />
-      <Device-Control-Knobs />
+      <SmallQue :config="config" />
+      <Buttons-Right :config="config" />
+      <Track-Control-Knobs :config="config" />
+      <Device-Control-Knobs :config="config" />
       <Faders />
       <Fader-Caps :config="config" />
-      <Track-Buttons />
+      <Track-Buttons :config="config" />
       <Labels />
     </svg>
   </div>

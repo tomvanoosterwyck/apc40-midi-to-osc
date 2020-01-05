@@ -7,8 +7,10 @@
     <g
        inkscape:groupmode="layer"
        :id="f.name"
-       v-for="(f, i) in faders"
+       v-for="(f, i) in ff"
        :key="i"
+       @click="openConfig(f)"
+       class="addPointer"
        >
       <rect
          style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06614583;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
@@ -32,6 +34,7 @@ import Vue from 'vue'
 import Component from 'vue-class-component'
 import { Prop, Watch, Emit } from 'vue-property-decorator'
 import faderCaps from './json/fadercaps.json'
+import { EventBus } from '../../EventBus'
 
 @Component
 export default class FaderCaps extends Vue {
@@ -40,40 +43,41 @@ export default class FaderCaps extends Vue {
   ff:any = {}
   mounted () {
     this.ff = faderCaps
+    setTimeout(() => {
+      this.initFaders()
+      EventBus.$on('sendOsc', (data:any) => {
+        this.setFader(data)
+      })
+    }, 1500)
+  }
+
+  setFader (updateData:any) {
+    let name = updateData.name
+    if (this.ff[name]) {
+      this.ff[name].value = updateData.value
+      this.ff[name].rect0.fixedY = this.calcY(this.ff[name].rect0.y, updateData.value)
+      this.ff[name].rect1.fixedY = this.calcY(this.ff[name].rect1.y, updateData.value)
+      this.ff = Object.assign({}, this.ff)
+    }
   }
 
   initFaders () {
-    let rtn:Array<any> = []
     for (let i = 0; i < this.config.length; i++) {
       const e = this.config[i]
       if (this.ff[e.name]) {
-        let tmp = {}
+        this.ff[e.name].name = e.name
+        this.ff[e.name].osc = e.osc
+        this.ff[e.name].type = e.type
+        this.ff[e.name].value = e.value
+        this.ff[e.name].rect0.fixedY = this.calcY(this.ff[e.name].rect0.y, e.value)
+        this.ff[e.name].rect1.fixedY = this.calcY(this.ff[e.name].rect1.y, e.value)
       }
     }
+    this.ff = Object.assign({}, this.ff)
   }
 
-  get faders () {
-    let rtn:Array<any> = []
-    for (let i = 0; i < this.config.length; i++) {
-      const e = this.config[i]
-      if (this.ff[e.name]) {
-        let tmp = {}
-      }
-      for (let t = 0; t < this.ff.length; t++) {
-        const j = this.ff[t]
-        if (j.name === e.name) {
-          let tmp = {}
-          j.rect0.fixedY = this.calcY(j.rect0.y, e.value)
-          j.rect1.fixedY = this.calcY(j.rect1.y, e.value)
-          rtn.push({
-            ...j,
-            ...e
-          })
-          // rtn.push(Object.assign(e, j))
-        }
-      }
-    }
-    return rtn
+  openConfig (item:any) {
+    EventBus.$emit('openConfig', item)
   }
 
   calcY (y:any, value:any) {
@@ -81,7 +85,6 @@ export default class FaderCaps extends Vue {
     y = Number(y)
     value = Number(value)
     let up = 27 * value
-    console.log(y, value, up)
     rtn = (y - up)
     return rtn
   }
